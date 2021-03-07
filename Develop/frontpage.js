@@ -3,6 +3,7 @@ var current = moment().format('dddd MMMM Do, YYYY');
 var time = moment().format('H');
 var tasks = document.getElementsByClassName("time-block");
 
+// keep date up top and refreshes each day to next date
 $("span").append(current);
 
 // color function for time/tasks
