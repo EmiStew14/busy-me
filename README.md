@@ -3,7 +3,7 @@ A Daily Scheduler
 
 # Purpose
 
-An easy way to keep track of your tasks, this site presents the current time and allows for the user to save, store, and modify tasks for a standard 9-5 work day. Time slots are color coded to show tasks happening now (red), past tasks (grey) and tasks coming up (green). 
+An easy way to keep track of your tasks, this site presents the current date and allows for the user to save, store, and modify tasks for a standard 9-5 work day. Time slots are color coded to show tasks happening now (red), past tasks (grey) and tasks coming up (green). 
 
 # Built with
 * HTML
