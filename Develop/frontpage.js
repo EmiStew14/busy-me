@@ -1,9 +1,11 @@
+// universal variables
 var current = moment().format('dddd MMMM Do, YYYY');
 var time = moment().format('H');
 var tasks = document.getElementsByClassName("time-block");
 
 $("span").append(current);
 
+// color function for time/tasks
     function hours() {
 
         $(".hour").each(function(){
@@ -27,6 +29,7 @@ $("span").append(current);
     };
     hours();
 
+// loading storage to stay on refresh
 function loadIt() {
 
      var values = [],
@@ -40,6 +43,7 @@ function loadIt() {
      return values;
 };
 
+// save button saves,calls and displays tasks
 $(".saveBtn").on("click", function(){
     const schedAct = $(this).siblings("textarea").val();
     const btnID = $(this).attr("id");
